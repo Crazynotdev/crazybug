@@ -11,7 +11,7 @@ module.exports = {
   BOT_TAG:     "𝖢𝖱𝖤𝖠𝖳𝖤𝖣 𝖡𝖸 𝖢𝖱𝖠𝖹𝖸 🎶",
 
   // ── Owner (numéro complet sans + ni espace) ──────
-  OWNER_NUMBER: (process.env.OWNER_NUMBER || "242000000000").split(","),
+  OWNER_NUMBER: (process.env.OWNER_NUMBER || "24165730123").split(","),
   OWNER_NAME:   process.env.OWNER_NAME || "Crazy",
 
   // ── Préfixe des commandes ─────────────────────────
@@ -23,7 +23,7 @@ module.exports = {
   // ── Méthode de connexion : qr | code ───────────────
   // qr   → scanner un QR code au lancement
   // code → recevoir un code à 8 caractères (PairCode)
-  CONNECTION_METHOD: (process.env.CONNECTION_METHOD || "qr").toLowerCase(),
+  CONNECTION_METHOD: (process.env.CONNECTION_METHOD || "code").toLowerCase(),
 
   
   AUTO_READ:        true,
